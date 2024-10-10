@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.articulo1{
+    width: 25%;
+    border: solid 2px #828485;
+}
+.articulo2{
+    margin: auto;
+}
+.articulo2 > img{
+    width: 50%;
+}
+.main-user {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 6%;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dot{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.dot > img{
+    width: 20%;
+    border-radius: 100%;
+}
+.icons {
+    display: flex;
+}
+.icons > i {
+    margin: 0 10px;
+    font-size: 30px;
+}
+.nuevo-chat{
+    color: white;
+    margin: 10%;
+    width: 50%;
+    height: 50px;
+    border: 0 ;
+    background-color: #a491d2;
+    cursor: pointer;
+}
+.fa-message {
+    cursor: pointer;
+    color: #BEc1BB;
+
+}
+.fa-bars {
+    cursor: pointer;
+    color: #BEc1BB;
+
+
+}
+.users{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding: 6%;
+
+}
+.users > img{
+    width: 21%;
+    border-radius: 100%;
+}
+.nombre-des > h2{   
+    text-align: justify;
+}
